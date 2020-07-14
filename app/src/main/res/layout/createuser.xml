@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_background"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorWhite"
+            android:text="Kullanıcı Kayıt"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:hint="İsim"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_margin="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/surnameEditText"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColorHint="@color/colorWhite"
+            android:layout_margin="10dp"
+            android:hint="Soyisim"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/dateofbirthEditText"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorWhite"
+            android:gravity="center"
+            android:hint="Doğum Tarihi"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/buttonborder"
+            android:text="Kaydet"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
